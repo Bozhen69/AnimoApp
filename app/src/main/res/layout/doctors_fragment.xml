@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.circularreveal.coordinatorlayout.CircularRevealCoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Введите ФИО доктора"
+            android:layout_margin="5dp"/>
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Организация: "
+            android:textSize="10sp"
+            android:layout_margin="5dp"/>
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:id="@+id/organizationSp"
+            android:spinnerMode="dropdown">
+        </Spinner>
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Специальность "
+            android:textSize="10sp" />
+        <Spinner
+            android:id="@+id/specializationSp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:spinnerMode="dropdown">
+        </Spinner>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/doctors_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    </LinearLayout>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/fab_add_doctor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_gravity="end|bottom"
+        app:backgroundTint="@color/colorPrimaryDark"
+        android:src="@drawable/ic_add_circle_24dp"
+        android:layout_margin="10dp" />
+</com.google.android.material.circularreveal.coordinatorlayout.CircularRevealCoordinatorLayout>

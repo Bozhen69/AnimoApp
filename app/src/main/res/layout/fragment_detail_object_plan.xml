@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/time_start_endTv"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:text="Время выполнения"
+        android:textColor="@color/colorPrimary"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:layout_margin="10dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/location_startTv"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:text="Локация при начале работы:"
+        android:textColor="@color/colorPrimary"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        android:layout_margin="10dp"/>
+    <com.yandex.mapkit.mapview.MapView
+        android:id="@+id/startMv"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.4"
+        android:layout_margin="10dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:id="@+id/location_endTv"
+        android:text="Локация по завершению работы:"
+        android:textColor="@color/colorPrimary"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        android:layout_margin="10dp"/>
+    <com.yandex.mapkit.mapview.MapView
+        android:id="@+id/endMv"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.4"
+        android:layout_margin="10dp"/>
+
+</LinearLayout>

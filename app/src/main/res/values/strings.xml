@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">AnimoApplication</string>
+    <string name="title_activity_doctors">DoctorsActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main">Main</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="Profile">Профиль</string>
+    <string name="Doctors">Доктора</string>
+    <string name="pharmacy">Аптеки</string>
+    <string name="Plans">Планы</string>
+    <string name="user_names">Имя пользователя</string>
+    <string name="users_region">Регион пользователя</string>
+    <string name="leave_action">Выйти</string>
+    <string name="enter_your_phone">Введите номер телефона</string>
+    <string name="login">Войти</string>
+    <string name="Names">Имя</string>
+    <string name="surnames">Фамилия</string>
+    <string name="Patronomyc">Отчество</string>
+    <string name="Organization">Организация</string>
+    <string name="Org_name">Название организации</string>
+    <string name="Region">Регион</string>
+    <string name="City">Город</string>
+    <string name="Address">Адресс</string>
+    <string name="Specialty">Специальность</string>
+    <string name="Post">Должность</string>
+    <string name="Work_present">Добрый день, ваши задачи на сегодня:</string>
+    <string name="Work">Работа</string>
+    <string name="Logo_text">ANIMO.SU</string>
+    <string name="Regions_of_user">Регионы закрепленные за пользователем:</string>
+    <string name="FIO_User">ФИО пользователя</string>
+    <string name="User_email">Email:</string>
+</resources>

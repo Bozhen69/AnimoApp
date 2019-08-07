@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application>
+        <activity android:name="com.bozhen.animoapplication.main.LoginActivity" />
+        <activity android:name="com.bozhen.animoapplication.MainActivity" />
+        <activity android:name="com.bozhen.animoapplication.presentation.presenter.MainActivity" />
+        <activity android:name="com.bozhen.animoapplication.main.activity.blank.BlankActivity" />
+    </application>
+
+</manifest>

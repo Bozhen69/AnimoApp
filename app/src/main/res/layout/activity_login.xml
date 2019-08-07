@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:text="ANIMO.SU"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:text="Ваш номер телефона: "
+        android:textSize="10sp" />
+
+    <EditText
+        android:id="@+id/TV_Phone_input"
+        style="@style/Widget.MaterialComponents.TextInputEditText.FilledBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:hint="@string/enter_your_phone"
+        android:inputType="phone"
+        android:textColor="@color/colorAccent" />
+
+    <ProgressBar
+        android:id="@+id/loadingProgress"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:indeterminate="true"
+        android:progress="1"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/BT_Login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/login"
+        android:textColor="@android:color/background_light" />
+
+</LinearLayout>
